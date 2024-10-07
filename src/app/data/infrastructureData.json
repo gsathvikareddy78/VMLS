@@ -1,0 +1,59 @@
+[
+    {
+      "imgSrc": "/assets/infra1.jpg",
+      "alt": "Classroom",
+      "href": "../../campus-life/Infrastructure/classroom",
+      "title": "Classroom",
+      "description": "The classrooms of VMLS are a testament to modern educational advancements, blending technology with design to create an environment ripe for learning."
+    },
+    {
+      "imgSrc": "/assets/infra2.jpg",
+      "alt": "Atrium",
+      "href": "../../campus-life/Infrastructure/Atrium",
+      "title": "Atrium",
+      "description": "The atrium of VMLS fosters an atmosphere that is both inviting and conducive to academic pursuits."
+    },
+    {
+      "imgSrc": "/assets/infra3.jpg",
+      "alt": "Main Building",
+      "href": "../../campus-life/Infrastructure/Main-Building",
+      "title": "Main Building",
+      "description": "The main building of VMLS stands as a striking example of modern architecture, where functionality meets aesthetic precision."
+    },
+    {
+      "imgSrc": "/assets/infra4.jpg",
+      "alt": "Library",
+      "href": "../../campus-life/Infrastructure/Library",
+      "title": "Library",
+      "description": "The VMLS Library represents a significant advancement in the integration of traditional library services with cutting-edge technology."
+    },
+    {
+      "imgSrc": "/assets/infra5.jpg",
+      "alt": "Moot Court",
+      "href": "../../campus-life/Infrastructure/Moot-court",
+      "title": "Moot Court",
+      "description": "The VMLS Moot Court is a state-of-the-art facility designed to simulate real-world legal proceedings."
+    },
+    {
+      "imgSrc": "/assets/infra6.jpg",
+      "alt": "Seminar Halls",
+      "href": "../../campus-life/Infrastructure/Seminar-halls",
+      "title": "Seminar Halls",
+      "description": "The VMLS Seminar Hall is a modern facility designed to host a variety of academic and professional events."
+    },
+    {
+      "imgSrc": "/assets/infra7.jpg",
+      "alt": "Food Court",
+      "href": "../../campus-life/Infrastructure/Food-court",
+      "title": "Food Court",
+      "description": "The VMLS food courts cater to diverse culinary preferences and economic backgrounds of the student body."
+    },
+    {
+      "imgSrc": "/assets/infra8.jpg",
+      "alt": "Hostel",
+      "href": "../../campus-life/Infrastructure/Hostels",
+      "title": "Hostel",
+      "description": "The VMLS hostel provides a secure and comfortable living environment for students with various room occupancy options."
+    }
+  ]
+  

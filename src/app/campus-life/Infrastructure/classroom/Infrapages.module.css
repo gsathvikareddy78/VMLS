@@ -1,0 +1,122 @@
+.classroom {
+  display: flex;
+  width: 101%;
+  height: 100%;
+  padding: 3vh 6vw;
+}
+.panel {
+  min-width: 90vw;
+  height: 82vh;
+
+}
+.rowClassroom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 2vw;
+  background-color: #f0f0f0;
+}
+.rowClassroom > div {
+  width: 50%;
+  height: 100%;
+}
+
+.rowClassroom .imageCroom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rowClassroom .columnClassroom:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+.rowClassroom .columnClassroom:nth-child(2) {
+  background-color: #f0f0f0;
+  padding-top: 1vw;
+  padding-right: 2vw;
+}
+.rowClassroom .columnClassroom:nth-child(2) p {
+  font-size: 1vw;
+  text-align: justify;
+  line-height: 20px;
+}
+.rowClassroom .columnClassroom:nth-child(2) p:not(:last-child) {
+  margin-bottom: 1vw;
+}
+.rowClassroom .columnClassroom:nth-child(1) .imageCroom  {
+  width: 48%;
+  height: 48.4%;
+}
+.rowClassroom .columnClassroom:nth-child(1) .imageCroom :last-child {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rowClassroom .columnClassroom:nth-child(1) .imageCroom:last-child h4 {
+  position: absolute; 
+  top: 500px; 
+  left: 38%;
+  transform: translateX(-50%); 
+  color:#f0f0f0;
+  font-size: 31px; 
+  font-family: serif;
+  font-weight: 400;
+  text-align: center
+}
+.rowClassroom .columnClassroom:nth-child(2) ul {
+  padding-left: 2vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.rowClassroom .columnClassroom:nth-child(2) ul li {
+  font-size: 1vw;
+}
+
+@media  (max-width: 1101px) {
+  .panel{
+    height: auto !important;
+  }
+ .rowClassroom {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+ .rowClassroom > div {
+    width: 100%;
+  }
+  .rowClassroom .columnClassroom:nth-child(1) .imageCroom:last-child h4 {
+    position: absolute;
+    top:85vw !important; 
+    left: 73%; 
+    transform: translateX( -50%) !important; 
+  }
+ .rowClassroom .columnClassroom:nth-child(2) {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0;
+  }
+ .rowClassroom .columnClassroom:nth-child(2) p {
+    font-size: 16px;
+    text-align: justify;
+  }
+ .rowClassroom .columnClassroom:nth-child(1) .imageCroom {
+    width: 49.4%;
+  }
+ .rowClassroom .columnClassroom:nth-child(2) ul {
+    padding-left: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+ .rowClassroom .columnClassroom:nth-child(2) ul li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 468px) {
+  .heading{
+    font-size: 5vh !important;
+  }
+}
+
+

@@ -1,0 +1,137 @@
+.headingContainer {
+  width: 35%;
+  height: 100%;
+  background-color: #474747;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingText1 {
+  color: #fff;
+  font-size: 2vw;
+  font-weight: normal;
+  width: 15vw;
+  font-family: var(--font-inter);
+}
+
+.headingText2 {
+  font-size: 31px;
+  font-weight: 400;
+  margin-bottom: 5vh;
+  font-family: serif;
+  padding-left: 1vw;
+}
+.panel {
+  padding-left: 6vw;
+  padding-top: 2vw;
+  margin-bottom: 5vh;
+}
+
+.slider {
+  width: 50vw;
+  margin-left: 3vw;
+  overflow: hidden;
+}
+.slider ul {
+  display: flex;
+  padding: 0;
+  animation: cambio 10s infinite linear;
+}
+.slider li {
+  padding: 0 10px;
+  list-style: none;
+}
+.slider img {
+  max-width: 10vw;
+  height: auto !important;
+}
+@keyframes cambio {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: -100%;
+  }
+}
+
+.section2 {
+  width: 57%;
+  height: 60%;
+  background-color: #f5f5f5;
+  display: flex;
+}
+.image {
+  width: 92%;
+  object-fit: contain;
+  margin-top: 2vw;
+  margin-left: 2.7vw;
+}
+.logoImg {
+  width: 40%;
+  height: 70%;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec2Logos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  column-gap: 2vw;
+}
+.sec2Logos img {
+  width: 120px;
+}
+.section2 > div:nth-child(2) {
+  width: 100%;
+  height: 100%;
+}
+
+.section2 > div:nth-child(1) p {
+  font-size: 0.9vw;
+  font-weight: normal;
+  width: 18vw;
+}
+
+@media (max-width: 1200px) {
+  .headingContainer {
+    width: 86vw;
+    height: 10vh;
+    margin-left: 1.5vw !important;
+  }
+  .headingText1 {
+    font-size: 4.5vw;
+    width: 25vw;
+  }
+  .slider img {
+    max-width: 30vw !important;
+  }
+  .slider {
+    width: 86vw !important;
+    margin-left: 1vw !important;
+  }
+  .logoImg .sec2Logos{
+   align-items: center !important;
+  }
+  .sec2Logos img {
+    padding-left: 6vw !important;
+    width: 38vw !important;
+    padding-right: auto !important;
+  }
+  .section2 {
+    display: block !important;
+    width: 100% !important;
+  }
+  .section2 > div:nth-child(1) p {
+    text-align: center !important;
+    padding-bottom: 10px !important;
+    font-size: 3vw !important;
+    width: 88vw !important;
+    margin-left: auto !important;
+    
+  }
+}

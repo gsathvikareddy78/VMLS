@@ -1,0 +1,154 @@
+.panel {
+  min-width: 90vw;
+  height: auto;
+  margin-top: 1vh;
+  margin-bottom: 13vh;
+}
+.academicsSec1 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.academicsSec1 > div:nth-child(1) {
+  width: 30%;
+  text-align: center;
+  margin-right: 8px;
+}
+.imageContainer img {
+  width: 360px;
+  height: 450px;
+  object-fit: contain;
+}
+.title {
+  color: #000;
+  text-align: start;
+  margin-top: -6vh;
+  margin-left: 2.5vw;
+}
+.facultyName {
+  font-size: 1.8vw;
+  font-weight: normal;
+  font-family: serif;
+  color: #000;
+  margin-bottom: 2vh;
+}
+.facultyTitle {
+  font-size: 1vw;
+  font-weight: normal;
+  color: #000;
+}
+.academicsSec1 > div:nth-child(2) {
+  width: 63%;
+  margin-top: -1vh;
+}
+
+.floatRow p {
+  font-size: 1vw;
+  font-weight: normal;
+  text-align: justify;
+  margin-bottom: 2vh;
+  line-height: 1.35;
+  color: #333;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.academics {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 3vw;
+}
+
+@media only screen and (max-width: 1100px) {
+  .academicsSec1 {
+    display: block;
+  }
+
+  .academicsSec1 > div:nth-child(1),
+  .academicsSec1 > div:nth-child(2) {
+    width: 97%;
+    margin-right: 10vw;
+    margin-left: 0;
+  }
+
+  .imageContainer img {
+    width: 97%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .title {
+    margin-top: 1vh;
+    margin-left: 0;
+  }
+  .facultyName,
+  .facultyTitle {
+    text-align: start;
+    margin-left: 1.5vw;
+    margin-bottom: 1vh;
+  }
+
+  .facultyName {
+    font-size: 2.3vw;
+    margin-top: 2vh;
+  }
+
+  .facultyTitle {
+    font-size: 1.3vw;
+    margin-top: 1vh;
+  }
+
+  .floatRow p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 4vh 1.5vw 2vh 1.5vw;
+    color: #000;
+  }
+
+  .row {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .facultyName {
+    font-size: 2.3vw;
+    margin-top: 2vh;
+  }
+
+  .facultyTitle {
+    font-size: 1.5vw;
+    margin-top: 1vh;
+  }
+
+  .floatRow p {
+    font-size: 2vw;
+    text-align: justify;
+    margin: 4vh 1.5vw 2vh 1.5vw;
+  }
+
+  .row {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .facultyName {
+    font-size: 7vw;
+    margin-top: 2vh;
+  }
+
+  .facultyTitle {
+    font-size: 4.5vw;
+  }
+
+  .floatRow p {
+    font-size: 4.7vw;
+    text-align: justify;
+    margin: 3vh 1.5vw 1vh 1.5vw;
+  }
+}

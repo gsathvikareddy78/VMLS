@@ -1,0 +1,325 @@
+.panel {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.gap {
+  margin-bottom: 5vh;
+}
+.homepage {
+  height: 100%;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  column-gap: 2vw;
+  width: 100%;
+}
+.achievementPage {
+  column-gap: 1vw;
+}
+.row {
+  width: 88vw;
+  background-color: #fff7ea;
+  padding: 0.5vw;
+  margin-top: -1vh;
+}
+.row h3 {
+  color: rgb(141, 25, 28);
+  font-size: 2vw;
+  font-family: serif;
+  font-weight: 400;
+  margin-bottom: 1vh;
+}
+.row p {
+  font-size: 1.1vw;
+}
+.img1 img {
+  width: 88vw;
+  height: auto;
+  object-fit: cover;
+}
+
+.headingContainer {
+  width: 38.5%;
+  height: 23.5%;
+  background-color: #474747;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7vw;
+}
+.panel2 {
+  padding-left: 6.5vw;
+  padding-top: 2vw;
+  margin-bottom: 3vw;
+}
+.headingText1 {
+  color: #fff;
+  font-size: 2vw;
+  font-weight: normal;
+  width: 25vw;
+}
+
+/* section-4 */
+.homeSec4 {
+  width: 94%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 1vw;
+}
+.homeSec4 img {
+  width: 5vw;
+  height: auto;
+}
+.homeSec4 > div:nth-child(1) {
+  width: 6.5%;
+  height: 100%;
+}
+.homeSec4 > div:nth-child(2),
+.homeSec4 > div:nth-child(4) {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  row-gap: 1vh;
+  flex-direction: column;
+}
+.homeSec4 > div:nth-child(2) .column4,
+.homeSec4 > div:nth-child(4) .column4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.homeSec4 > div:nth-child(2) .column4 .inner4,
+.homeSec4 > div:nth-child(4) .column4 .inner4 {
+  width: 50%;
+  height: 18.25vw;
+}
+.homeSec4 > div:nth-child(2) .column4 .inner4 img,
+.homeSec4 > div:nth-child(4) .column4 .inner4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homeSec4 > div:nth-child(3) {
+  width: 28%;
+  height: 100%;
+}
+.sec4cntntn p {
+  margin-top: 0.5vh;
+}
+.readMore {
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  background-color: #fff;
+  color: #000;
+  border-radius: 100%;
+  top: 11vh;
+  left: 30vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9vw;
+  transition: all 0.2s ease-out;
+}
+.homeSec4 .column4:hover .readMore {
+  display: flex !important;
+}
+.inner4Content {
+  color: #fff;
+  padding: 0.5vh 1vw;
+}
+.content1 {
+  visibility: visible !important;
+}
+.inner4Content1 {
+  background-color: #c30610;
+}
+.inner4Content2 {
+  background-color: #004ab9;
+}
+.inner4Content3 {
+  background-color: #0076b9;
+}
+.inner4Content4 {
+  background-color: #ca6c1d;
+}
+.inner4Content h3,
+.section4Row2 h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 2vh;
+  font-family: serif;
+  margin-top: 1vh;
+}
+.inner4Content p,
+.section4Row2 p {
+  font-size: 1vw;
+  font-weight: normal;
+  margin-bottom: 1vh;
+}
+.column4 a {
+  text-decoration: none;
+  font-family: "Times New Roman";
+}
+.section4Row2 > div:nth-child(1) {
+  height: 55%;
+}
+.section4Row2 > div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section4Row2 > div:nth-child(2) {
+  height: 45%;
+  background-color: #febc5a;
+  padding: 1vw;
+  color: #000;
+}
+
+/* section-2 */
+.panel3 {
+  padding-left: 7vw;
+  padding-top: 5vh;
+}
+.achievementSection2 {
+  width: 93%;
+  height: 100%;
+  display: flex;
+  column-gap: 1vw;
+  align-items: center;
+}
+.achievementSection2 .section3:nth-child(1),
+.achievementSection2 .section3:nth-child(2) {
+  width: 37.5%;
+  height: 100%;
+}
+.achievementSection2 .section3:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+}
+.achievementSection2 .section3:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.achievementSection2 .section3:nth-child(3) {
+  width: 25%;
+  height: 100%;
+}
+.achievementSection2 .section3:nth-child(3) img {
+  width: 100%;
+  height: 33.5vw;
+  object-fit: cover;
+}
+.achievementSection2 .section3 .column3 {
+  width: 100%;
+  height: 50%;
+}
+.achievementSection2 .section3 .column3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1100px) {
+  .headingContainer {
+    width: 87.5vw;
+  }
+  .headingText1 {
+    font-size: 3.5vw;
+    width: 25vw;
+  }
+  .achievementSection2 {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .homepage {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+  .row h3 {
+    transform: none !important;
+    width: 100% !important;
+    font-size: 3.5vw;
+  }
+  .row p {
+    font-size: 2.5vw;
+  }
+
+  .homeSec4 {
+    margin-top: -5vw !important;
+  }
+  .homeSec4 > div:nth-child(2) .column4,
+  .homeSec4 > div:nth-child(4) .column4 {
+    flex-direction: column-reverse !important;
+  }
+
+  .section4Row2 > div:nth-child(2){
+    margin-top: -1vh !important;
+  }
+  .homeSec4 {
+    display: block !important;
+    width: 88% !important;
+    margin-left: 6vw !important;
+  }
+  .readMore {
+    width: 15vh;
+    height: 15vh;
+    top: 42vh;
+    left: 30vh;
+    font-size: 1.9vw;
+  }
+  .homeSec4 > div:nth-child(2),
+  .homeSec4 > div:nth-child(4),
+  .homeSec4 > div:nth-child(1),
+  .homeSec4 > div:nth-child(2) .column4 .inner4,
+  .homeSec4 > div:nth-child(4) .column4 .inner4,
+  .homeSec4 > div:nth-child(3) {
+    width: 100% !important;
+  }
+  .inner4Content1,
+  .inner4Content2,
+  .section4Row2 > div:nth-child(2),
+  .inner4Content3,
+  .inner4Content4,
+  .homeSec4 > div:nth-child(1) {
+    padding: 15px !important;
+  }
+  .inner4Content p,
+  .section4Row2 p {
+    font-size: 2.5vw;
+    margin-top: auto !important;
+  }
+  .inner4Content h3,
+  .section4Row2 h3 {
+    font-size: 3vw !important;
+  }
+  .inner4Content {
+    padding: 1vw 1vw !important;
+    height: auto !important;
+  }
+  .achievementSection2 .section3:nth-child(3) img {
+    height: 35vw !important;
+  }
+  .achievementSection2 {
+    width: 88vw !important;
+    margin-left: -1vw !important;
+  }
+  .homeSec4 > div:nth-child(2) .column4 .inner4{
+    height: 87vw;
+  }
+  .homeSec4 > div:nth-child(4) .column4 .inner4{
+    height: 87vw;
+  }
+}
+
+
+

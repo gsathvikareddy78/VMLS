@@ -1,0 +1,181 @@
+.panel{
+  margin-bottom: 10vh;
+}
+.committee {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: -1.5vw;
+  padding: 1vw 6vw 0 6vw;
+  padding-top: 3vh !important;
+}
+.committee > .row {
+  height: 46%;
+  display: flex;
+  align-items: center;
+  column-gap: 1vw;
+}
+.committee > .row h3 {
+  font-size: 1.1vw;
+  font-weight: 400;
+  font-family: serif;
+  margin-bottom: -1.5vw;
+  padding: 0.5vw 0;
+}
+.committee > .row p {
+  font-size: 0.8vw;
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 0.5vw;
+  padding: 0.5vw 0; 
+}
+.committee > .row:nth-child(1) {
+  width: 53%;
+}
+.committee > .row:nth-child(2) {
+  width: 78%;
+  position: relative;
+}
+.committee > .row:nth-child(1) .column {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  column-gap: 1vw;
+  height: 39vh;
+}
+
+.committee > .row:nth-child(1) .column .innerColumn:nth-child(1) {
+  width: 14%;
+  height: 37vh;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+.committee > .row:nth-child(1) .column .innerColumn a,
+.committee > .row:nth-child(2) .column a {
+  text-decoration: none;
+  color: black;
+}
+.committee > .row:nth-child(1) .column .innerColumn:nth-child(1) h3 {
+  transform: rotate(-90deg);
+  width: 16vw;
+}
+.committee > .row:nth-child(1) .column .innerColumn:nth-child(2) {
+  width: 90%;
+  height: 100%;
+  margin-bottom: 1vh;
+}
+.committee > .row:nth-child(1) .column .innerColumn .image {
+  width: 100%;
+  height: 70%;
+  margin-bottom: -3vh;
+}
+.committee > .row:nth-child(1) .column .innerColumn .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.committee > .row:nth-child(1) .column .innerColumn .content {
+  width: 100%;
+}
+.committee > .row:nth-child(1) h3 {
+  font-size: 1.2vw;
+}
+.committee > .row:nth-child(2) .column:nth-child(1) {
+  width: 3.5%;
+  height: 37vh;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.committee > .row:nth-child(2) .column:nth-child(1) h3 {
+  transform: rotate(-90deg);
+  width: 16vw;
+}
+.committee > .row:nth-child(2) .column {
+  width: 30%;
+  height: 34vh;
+}
+.committee > .row:nth-child(2) .column .innerColumn .image {
+  width: 100%;
+  height: 70%;
+  margin-bottom: -3vh;
+}
+.committee > .row:nth-child(2) .column .innerColumn .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.committee > .row:nth-child(2) .column .innerColumn .content {
+  width: 100%;
+  height: 30%;
+  padding-top: -3vh;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .committee > .row:nth-child(1),
+  .committee > .row {
+    width: 88vw;
+    display: block;
+  }
+  .committee > .row:nth-child(1) .column {
+    width: 88vw;
+    height: auto;
+    align-items: flex-start;
+  }
+  .committee > .row:nth-child(1) .column .innerColumn:nth-child(1) {
+    height: 80vw;
+    align-self: baseline;
+  }
+  .committee > .row:nth-child(1) h3 {
+    font-size: 20px;
+  }
+  .committee > .row:nth-child(1) .column .innerColumn:nth-child(1) h3 {
+    width: 50vw;
+  }
+  .committee > .row p {
+    font-size: 14px;
+  }
+  .committee > .row h3 {
+    font-size: 20px;
+  }
+  .committee > .row:nth-child(1) .column .innerColumn .image {
+    width: 75vw;
+    height: auto;
+    padding-bottom: 1vh !important;
+  }
+  
+  .committee > .row:nth-child(2) .column {
+    width: 88vw;
+    height: auto;
+    align-items: flex-start;
+  }
+  .committee > .row:nth-child(2) .column .innerColumn .image {
+    width: 90vw;
+    height: auto;
+    padding-bottom: 1vh !important;
+  }
+  .committee > .row:nth-child(2) .column:nth-child(1) {
+    width:89vw;
+    height: 13vh;
+    justify-content:start;
+    margin-bottom: 5vh !important;
+  }
+  .committee > .row:nth-child(2) .column:nth-child(1) h3 {
+    transform:none !important;
+    width: 16vw;
+  }
+  .committee > .row:nth-child(2) .column .innerColumn:nth-child(1) p {
+    width: 78vw;
+  }
+ 
+}

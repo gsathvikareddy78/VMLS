@@ -1,0 +1,45 @@
+[
+    {
+      "id":"01",
+      "name": "Justice P. Kalaiyarasan",
+      "image": "/assets/advisor1.png",
+      "link": "/advisorsPages/01",
+      "description": "Former Judge, Madras High Court, Chairman, Tamil Nadu State Official Language Commission."
+    },
+    {
+      "id":"02",
+      "name": "Justice BS Chauhan",
+      "image": "/assets/advisor2.png",
+      "link": "/Leadership/BoardOfAdvisors",
+      "description": "Former Judge Supreme Court of India Former Chairman, Law Commission of India."
+    },
+    {
+      "id":"03",
+      "name": "Padma Sri Dr. T.K. Viswanathan",
+      "image": "/assets/advisor3.png",
+      "link": "/advisorsPages/03",
+      "description": "Former Secretary – General of Lok Sabha; Former Secretary, Ministry of Law and Justice, Government of India."
+    },
+    {
+      "id":"04",
+      "name": "Prof. Dr. Chockalingam",
+      "image": "/assets/advisor4.png",
+      "link": "/advisorsPages/04",
+      "description": "Chairperson, Rajiv Gandhi National Institute of Youth Development, (RGNIYD); Vice President, World Society of Victimology."
+    },
+    {
+      "id":"05",
+      "name": "Mr. Abhijit Mukhopadhyay",
+      "image": "/assets/advisor5.png",
+      "link": "/advisorsPages/05",
+      "description": "President (Legal) and General Counsel, Hinduja Group."
+    },
+    {
+      "id":"06",
+      "name": "Mr. Promod Nair",
+      "image": "/assets/advisor6.png",
+      "link": "/advisorsPages/06",
+      "description": "Senior Advocate, High Court of Karnataka; Solicitor-Advocate, England and Wales."
+    }
+  ]
+  
